@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@import 'token.css';
+
+html {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+body { 
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.g-bebas {
+  font-family: 'Bebas Neue', 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.g-link {
+  border: 1px solid var(--brand-blue);
+  color: var(--brand-blue);
+  text-decoration: none;
+  padding: var(--spacing-1-2) var(--spacing);
+  border-radius: 36px;
+  text-align: center;
+}
+
+.g-link:hover {
+  border: 1px solid var(--brand-white);
+  background: var(--brand-blue);
+  color: var(--brand-black);
+}
