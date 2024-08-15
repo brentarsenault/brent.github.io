@@ -1,0 +1,8 @@
+.app {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  background: url('/public/006.jpg') no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,26 @@
+:root {
+  --brand-blue: #00f0ff;
+  --brand-white: white;
+
+  --spacing-sm: 12px;
+  --spacing: 24px;
+
+  --font-size-sm: 14px;
+}
+
+@font-face {
+  font-family: 'bebas-neue';
+  src: url('./assets/fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

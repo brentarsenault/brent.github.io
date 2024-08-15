@@ -1,0 +1,14 @@
+.button {
+    border: 2px solid var(--brand-blue);
+    border-radius: 10px;
+    padding: var(--spacing-sm);
+    text-align: center;
+    cursor: pointer;
+    color: var(--brand-white);
+    text-decoration: none;
+
+    &:hover {
+        background: var(--brand-blue);
+        color: black;
+    }
+}

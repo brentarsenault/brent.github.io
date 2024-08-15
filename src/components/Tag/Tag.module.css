@@ -1,0 +1,9 @@
+.tag {
+    background: rgba(0,0,0,0.8);
+    padding: var(--spacing-sm);
+    color: var(--brand-white);
+    position: absolute;
+    bottom: var(--spacing);
+    right: var(--spacing);
+    font-size: var(--font-size-sm);
+}
