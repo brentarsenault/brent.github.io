@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "//brentarsenault.github.io/brentarsenault.github.io/static/css/main.c651b3d9.css",
+    "main.js": "//brentarsenault.github.io/brentarsenault.github.io/static/js/main.760f5cdc.js",
+    "static/js/453.00b938ad.chunk.js": "//brentarsenault.github.io/brentarsenault.github.io/static/js/453.00b938ad.chunk.js",
+    "static/media/006.jpg": "//brentarsenault.github.io/brentarsenault.github.io/static/media/006.35e2bc2c2ce5bf5a497f.jpg",
+    "static/media/BebasNeue-Regular.ttf": "//brentarsenault.github.io/brentarsenault.github.io/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
+    "index.html": "//brentarsenault.github.io/brentarsenault.github.io/index.html",
+    "main.c651b3d9.css.map": "//brentarsenault.github.io/brentarsenault.github.io/static/css/main.c651b3d9.css.map",
+    "main.760f5cdc.js.map": "//brentarsenault.github.io/brentarsenault.github.io/static/js/main.760f5cdc.js.map",
+    "453.00b938ad.chunk.js.map": "//brentarsenault.github.io/brentarsenault.github.io/static/js/453.00b938ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c651b3d9.css",
+    "static/js/main.760f5cdc.js"
+  ]
+}
