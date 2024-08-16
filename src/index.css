@@ -4,6 +4,7 @@
 
   --spacing-sm: 12px;
   --spacing: 24px;
+  --spacing-lg: 36px;
 
   --font-size-sm: 14px;
 }
@@ -11,6 +12,10 @@
 @font-face {
   font-family: 'bebas-neue';
   src: url('./assets/fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {

@@ -6,4 +6,8 @@
     bottom: var(--spacing);
     right: var(--spacing);
     font-size: var(--font-size-sm);
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 }

@@ -5,7 +5,7 @@
 
 
 .logolockup {
-    padding: 14px var(--spacing) var(--spacing);
+    padding: 26px var(--spacing-lg) var(--spacing-lg);
     background: rgba(0,0,0,0.8);
     max-width: 500px;
     height: fit-content;
@@ -13,16 +13,28 @@
     display: flex;
     flex-direction: column;
     align-self: center;
+
+    @media (max-width: 768px) {
+        padding: 14px var(--spacing) var(--spacing);
+    }
 }
 
 .bebas {
     font-family: 'bebas-neue', Arial, Helvetica, sans-serif;
     font-size: var(--logo-font-size);
     letter-spacing: .04em;
+
+    @media (max-width: 768px) {
+        font-size: 40px;
+    }
 }
 
 .lg {
     font-size: var(--logo-font-size-lg);
+
+    @media (max-width: 768px) {
+        font-size: 48px;
+    }
 }
 
 .colorswap {
@@ -31,18 +43,32 @@
 
 .title {
     text-transform: uppercase;
-    font-size: 33px;
+    font-size: 31px;
     margin-top: -19px;
+
+    @media (max-width: 768px) {
+        font-size: 21px;
+        margin-top: -9px;
+    }
 }
 
 .buttons {
     display: flex;
     width: 100%;
-    margin-top: var(--spacing-sm);
+    margin-top: var(--spacing);
     gap: var(--spacing);
     justify-content: space-between;
+    flex-direction: row;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 
     > a {
         width: 50%;
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
     }
 }

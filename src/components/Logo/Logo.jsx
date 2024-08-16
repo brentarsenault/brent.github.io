@@ -21,7 +21,7 @@ const Logo = () => {
                     text="Linkedin" />
 
                 <Button 
-                    url="./assets/resume/Brent_Arsenault_Resume.pdf"
+                    url="./resume/Brent_Arsenault_Resume.pdf"
                     target="_self"
                     text="Resume" />
             </div>
